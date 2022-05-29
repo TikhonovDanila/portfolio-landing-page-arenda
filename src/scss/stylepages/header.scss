@@ -1,0 +1,94 @@
+header{
+    font-weight: bold;
+    -webkit-box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+            box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+    border: 1px solid #dee2e6;
+    background-color: #fff;
+    font-size: calc(0.5rem + 0.7vw);
+    width: 100%;
+    .header-menu{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        .header-menu-logo{
+            padding: 0 0 0 30px;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+        }
+        .header-logo-h1{
+            font-style: normal;
+            font-weight: 400;
+            color: #102746;
+        }
+        .header-menu-nav{
+            padding: 0 30px;
+            ul li {
+                padding: 10px;
+                display: inline;
+            }
+        }
+        .pressed-button {
+            display: inline-block;
+            padding: 15px 30px;
+            margin: 10px 20px;
+            border-radius: 5px;
+            background-image: -o-linear-gradient(45deg, #6ab1d7 0%, #33d9de 50%, #002878 100%);
+            background-image: linear-gradient(45deg, #6ab1d7 0%, #33d9de 50%, #002878 100%);
+            background-position: 100% 0;
+            background-size: 200% 200%;
+            font-weight: 300;
+            color: white;
+            -webkit-box-shadow: 0 8px 16px 0 rgba(0, 40, 120, .35);
+                    box-shadow: 0 8px 16px 0 rgba(0, 40, 120, .35);
+            -webkit-transition: .5s;
+            -o-transition: .5s;
+            transition: .5s;
+        }
+        .pressed-button:hover {
+            -webkit-box-shadow: 0 0 0 0 rgba(0, 40, 120, 0);
+                    box-shadow: 0 0 0 0 rgba(0, 40, 120, 0);
+            background-position: 0 0;
+        }
+        
+        #scrollTop{
+            position: fixed;
+            bottom: 150px;
+            right: 50px;
+            background-color: #6ab1d7;
+            z-index: 1;
+            border-radius: 5px;
+        }
+        #scrollTop:hover{
+            cursor: pointer;
+            opacity: 0.7;
+        }
+        .showBtn{
+            opacity: 0;
+            -webkit-transition: 0.5s;
+            -o-transition: 0.5s;
+            transition: 0.5s;
+        }
+        
+        .header-burger{
+            display: none;
+        }
+    }
+}
+
+
+
+

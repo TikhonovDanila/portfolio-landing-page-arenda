@@ -1,0 +1,156 @@
+main{
+    margin-top: 20px;
+    .wrapper-main{
+        max-width: 1180px;
+        margin: 0 auto;
+        -webkit-box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+        box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+        .about{
+            margin-bottom: 20px;
+            -webkit-box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+                    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+            border-bottom: 1px solid #dee2e6;
+            background-color: #fff;
+            font-style: normal;
+            font-weight: 400;
+            color: #102746;
+        }
+        .slideText p{
+            font-style: normal;
+            font-size: calc(1.2rem + 0.9vw);
+            font-weight: 700;
+            color: #102746;
+        
+        }
+        
+        
+        .what{
+            margin-bottom: 20px;
+            -webkit-box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+                box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+            border: 1px solid #dee2e6;
+            background-color: #fff;
+            font-style: normal;
+            font-weight: 400;
+            color: #102746;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            .what-title h2{
+                padding: 30px 0 20px 0;
+                font-size: calc(1rem + 0.9vw);
+                text-align: center;
+            }
+            .what-list ul{
+                margin-bottom: 20px;
+            }
+            .what-list ul li{
+                display: block;
+                padding: 15px;
+                font-size: calc(0.5rem + 0.7vw);
+            }
+            
+            .what-list img{
+                width: 32px;
+                height: 32px;
+            }
+        }
+        
+        
+        /* Section WHAT style end*/
+        
+        /* Section HOOVER style start*/
+        .hoover{
+            margin-bottom: 20px;
+            -webkit-box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+            box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+            border: 1px solid #dee2e6;
+            background-color: #fff;
+            font-style: normal;
+            font-weight: 400;
+            color: #102746;
+            .hoover-cards{
+                display: -ms-grid;
+                display: grid;
+                -ms-grid-columns: (1fr)[3];
+                grid-template-columns: repeat(3, 1fr);
+                margin-left: 10px;
+                font-size: calc(0.5rem + 0.7vw);
+            }
+            .hoover-card{
+                -ms-grid-column-span: 1;
+                grid-column: 1 span;
+                margin-bottom: 20px;
+            
+            }
+            .hoover-title{
+                padding: 30px 0 20px 0;
+                font-size: calc(1rem + 0.9vw);
+                text-align: center;
+            }
+            .hoover-card img{
+                border-bottom: 1px solid #dee2e6;
+                max-height: 215px;
+                margin-bottom: 20px;
+            }
+            
+            .hoover-card figure > figcaption{
+                margin-top: 10px;
+            }
+            .hoover-card figcaption p{
+                font-weight: 400;
+                padding: 5px 0;
+            }
+            
+            .hoover-card figcaption ul li{
+                padding: 5px 0;
+            }
+        }
+        
+        
+        /* Section HOOVER style END*/
+        
+        /* Section CONDITION style START*/
+        .condition{
+            margin-bottom: 20px;
+            -webkit-box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+                    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+            border: 1px solid #dee2e6;
+            background-color: #fff;
+            font-style: normal;
+            font-weight: 400;
+            color: #102746;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            .condition-title h2{
+                padding: 30px 0 20px 0;
+                font-size: calc(1rem + 0.9vw);
+                text-align: center;
+            }
+            .condition-list ul{
+                margin-bottom: 20px;
+                .condition-list ul li{
+                    display: block;
+                    padding: 15px;
+                    font-size: calc(0.5rem + 0.7vw);
+                }
+            }
+                    
+        }
+    }
+    
+}
+
+
+
+
+
